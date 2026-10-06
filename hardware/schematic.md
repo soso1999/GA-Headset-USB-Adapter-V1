@@ -39,10 +39,10 @@ L → J2 Tip
 R → J2 Ring
 GND → J2 Sleeve
 
-Eine passive Mono-Zusammenführung wird nicht verwendet.
-
-Die 12-V-Versorgung dient ausschließlich dem Mikrofonzweig.
 Der Kopfhörerausgang erhält keine 12-V-Speisung.
+Der Adapter stellt einen echten Stereo-Kopfhörerausgang bereit: Tip = linker Kanal, Ring = rechter Kanal, Sleeve = Ground.
+Für eine korrekte Stereo-Wiedergabe sollte das Headset auf Stereo gestellt werden.
+Beim Lightspeed Zulu 4 kann die Wiedergabe auch in der Stellung Mono normal und qualitativ gut funktionieren; dabei kann jedoch die echte Links-Rechts-Kanaltrennung verloren gehen.
 
 Alle hier genannten GND-Anschlüsse sind elektrisch verbunden. Das setzt eine passende Soundkarte mit gemeinsamer Analog-/USB-Masse voraus. Bei unbekannten bzw. differenziellen Ausgängen nicht blind verbinden.
 
