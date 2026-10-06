@@ -1,6 +1,6 @@
 Referenz,Menge,Bauteil,Wert / Typ,Status / Hinweis
 U1,1,USB-Soundkarte,MIC-IN + Stereo-Kopfhörerausgang,DollaTek Free Drive USB-Soundkarte; Pinbelegung und Eingangsbias prüfen
-U2,1,Step-Up,5 V auf 12 V,GTIWUNG Mini Boost Modul 3,7 V bis 12 V; Ausgang vor Anschluss auf 12 V einstellen
+U2,1,Step-Up,5 V auf 12 V,"GTIWUNG Mini Boost Modul 3,7 V bis 12 V; Ausgang vor Anschluss auf 12 V einstellen"
 R1,1,Widerstand,22 Ω,V1-Wert bestätigt; Bestandteil des Versorgungsfilters
 R2,1,Bias-Widerstand,220 Ω,V1-Wert bestätigt; Mikrofon-Bias
 R3,1,Signal-Serienwiderstand,10 kΩ,V1-Wert bestätigt; zum Mikrofoneingang der USB-Soundkarte
