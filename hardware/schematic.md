@@ -1,4 +1,4 @@
-# Elektrischer Schaltplan — V1, rekonstruiert
+# Elektrischer Schaltplan — V1
 
 Dieser Schaltplan beschreibt den zuletzt festgelegten V1-Signalweg. Es ist kein aus dem fertigen Aufbau extrahierter Schaltplan. Offene Bauteilwerte stehen in der BOM.
 
