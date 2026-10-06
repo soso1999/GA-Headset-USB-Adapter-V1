@@ -3,7 +3,7 @@ U1,1,USB-Soundkarte,MIC-IN + Stereo-Kopfhörerausgang,DollaTek Free Drive USB-So
 U2,1,Step-Up,5 V auf 12 V,"GTIWUNG Mini Boost Modul 3,7 V bis 12 V; Ausgang vor Anschluss auf 12 V einstellen"
 R1,1,Widerstand,22 Ω, Bestandteil des Versorgungsfilters
 R2,1,Bias-Widerstand,220 Ω, Mikrofon-Bias
-R3,1,Signal-Serienwiderstand,10 kΩ,zum Mikrofoneingang der USB-Soundkarte
+R3,1,Signal-Serienwiderstand,10 kΩ,Zum Mikrofoneingang der USB-Soundkarte
 C1,1,Filter-Elko,470 µF / mindestens 25 V,Versorgungsfilter; Polarität beachten
 C2,1,Filter-Keramikkondensator,100 nF / mindestens 25 V,HF-Entstörung der Versorgung
 C3,1,Koppelkondensator,1 µF WIMA-Folienkondensator,Gleichspannungsentkopplung des Mikrofonsignals
