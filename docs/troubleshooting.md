@@ -1,6 +1,6 @@
 # Bekannte Grenzen und Störungen
 
-- **Piepen in der Aufnahme:** Der Erbauer berichtete, dass mehr Abstand zum Computer das Piepen vollständig beseitigte. Das spricht für Einkopplung aus der Umgebung; die konkrete Quelle wurde nicht messtechnisch bewiesen. PC, Netzteile, Monitore und Step-Up können beitragen. Kurze Mic-Leitungen, Signal/GND-Paare und Abstand zum Wandler helfen.
+- **Piepen in der Aufnahme:** Mehr Abstand zum Computer beseitigte das Piepen vollständig. Das spricht für Einkopplung aus der Umgebung; die konkrete Quelle wurde nicht messtechnisch bewiesen. PC, Netzteile, Monitore und Step-Up können beitragen. Kurze Mic-Leitungen, Signal/GND-Paare und Abstand zum Wandler helfen.
 - **Ein anderer Step-Up ist nicht automatisch leiser:** Wandler können bei geringer Last takten oder im Burst-Modus arbeiten. Eine 1-kΩ-Testlast wurde im Projekt ohne Verbesserung erprobt. Sie ist kein Standardbauteil der BOM.
 - **Kein oder zu leises Mikrofon:** Kontaktbelegung, gemeinsame Masse und belastete Bias-Spannung prüfen. MIC-IN verwenden; ein Line-Eingang kann einen anderen Pegel benötigen. 10 kΩ und die Soundkartenimpedanz beeinflussen die Abschwächung.
 - **Nur ein Ohr:** Headset-Mono-Schalter und Tip/Sleeve der großen Buchse kontrollieren. Ring ist in V1 frei.
