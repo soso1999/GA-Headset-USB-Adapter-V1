@@ -19,7 +19,7 @@ U2 OUT− ───────────────────────�
 
 MIKROFONVERSORGUNG UND -SIGNAL
 
-U2 OUT+ (12 V) ─ R1 22 Ω ────┬── R2 220 Ω ────● MIC_BIAS_AUDIO
+U2 OUT+ (12 V) ─ R1 22 Ω ─── ─┬── R2 220 Ω ────● MIC_BIAS_AUDIO
                               │                  │
                          ┌────┴────┐             ├── J1 Ring
                          │         │             │
