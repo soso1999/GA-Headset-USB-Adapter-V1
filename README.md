@@ -47,14 +47,14 @@ Dies ist die Dokumentation eines funktionierenden Einzelprototyps und keine mess
 
 Die ausführliche Stückliste befindet sich unter [hardware/BOM.md](hardware/BOM.md) bzw. [hardware/BOM.csv](hardware/BOM.csv).
 
-Die 12-V-Mikrofon-Bias-Spannung des USB-Adapters versorgt ausschließlich das Electret-Mikrofon. Sie speist nicht die ANR- oder Bluetooth-Elektronik des Headsets. Beim Lightspeed Zulu 4 Dual-GA erfolgt deren Versorgung weiterhin über die beiden AA-Batterien.
+Die 12-V-Mikrofon-Bias-Spannung des USB-Adapters versorgt ausschließlich das Elektret-Mikrofon. Sie speist nicht die ANR- oder Bluetooth-Elektronik des Headsets. Beim Lightspeed Zulu 4 Dual-GA erfolgt deren Versorgung weiterhin über die beiden AA-Batterien.
 
 LEMO- und Helikopter-Stecker werden von dieser Version nicht unterstützt.
 
 ### Mikrofon-Signalweg
 
 USB 5 V → Step-Up auf 12 V → 22-Ω-Filterwiderstand →  
-470-µF-Elko + 100-nF-Kondensator zur Glättung →  
+gefilterter Versorgungspunkt mit 470-µF-Elko und 100-nF-Kondensator gegen GND →  
 220-Ω-Mikrofon-Bias-Widerstand →  
 Ring der PJ-068-Mikrofonbuchse
 
@@ -112,6 +112,8 @@ PC ─ USB ─ USB-Soundkarte ────┼──────── Kopfhörer
        └─ +5 V ─ Step-Up 12 V ─ Filter
 
 Alle vorgesehenen Masseanschlüsse teilen einen gemeinsamen GND.
+```
+
 Der Kopfhörerausgang bleibt **Stereo**. Es findet keine passive Mono-Zusammenführung statt.
 
 ## Direct Monitoring / Sidetone
