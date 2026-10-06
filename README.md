@@ -8,22 +8,54 @@ DIY-Adapter für ein GA-Headset mit zwei Klinkensteckern, beispielsweise ein **L
 
 ## Stand dieser Veröffentlichung
 
-Der Erbauer hat den V1-Prototyp gedruckt, montiert und erfolgreich am PC getestet. Nach Vergrößerung des Abstands zum Computer meldete er keine Störgeräusche und eine sehr gute Mikrofonaufnahme. Das ist ein Erfahrungsbericht zu einem Aufbau, keine messtechnische Freigabe oder allgemeine Kompatibilitätsgarantie.
+Der Erbauer hat den V1-Prototyp gedruckt, montiert und erfolgreich am PC getestet. Er meldet eine sehr gute Mikrofonaufnahme und Wiedergabequalität. Das ist ein Erfahrungsbericht zu einem Aufbau, keine messtechnische Freigabe oder allgemeine Kompatibilitätsgarantie.
 
-**Dokumentationsstand für v1.0.0: zur abschließenden Prüfung.** Die originalen STL-Dateien und das Gerätefoto sind enthalten. Die ursprüngliche parametrische OpenSCAD-Datei konnte aus der Unterhaltung nicht wiederhergestellt werden; die beiliegende SCAD-Datei importiert die originalen STL-Netze. Der genaue C3-Wert, die beiden tatsächlich verbauten Mono-Mischwiderstände sowie die Modellbezeichnungen von USB-Soundkarte und Step-Up sind nicht belegt. Vor einem identischen Nachbau oder einem finalen Release bitte die [offenen Punkte](docs/verification.md) schließen.
+**Dokumentationsstand für v1.0.0: 
 
-## Funktionen
+## Stückliste (BOM)
 
-- USB-Soundkarte übernimmt Audioaufnahme und Kopfhörerausgabe.
-- USB 5 V → Step-Up auf 12 V für den Mikrofon-Bias.
-- RC-Versorgungsfilter: 22 Ω, 470 µF und 100 nF.
-- 220-Ω-Bias-Widerstand zum Mikrofon-Ring.
-- Mikrofon-Signal über Koppelkondensator C3 und 10 kΩ zum MIC-IN.
-- Passives Zusammenführen von links und rechts über getrennte Widerstände auf Mono.
-- 3D-gedrucktes Gehäuse mit Deckel, M3-Heat-Set-Inserts und offenem USB-Kabelschlitz.
-- Kein analoger Sidetone, kein zusätzlicher Mikrofon-Preamp, kein Sidetone-Poti in V1.
+| Anzahl | Bauteil | Wert / Typ | Hinweise |
+|---:|---|---|---|
+| 1 | USB-Soundkarte | CM108-basierter USB-Audioadapter | Stellt Mikrofoneingang und Stereo-Kopfhörerausgang bereit |
+| 1 | DC-DC-Step-up-Wandler | GTIWUNG 5 V → 12 V Boost Converter | Wird aus USB 5 V versorgt und erzeugt die Mikrofon-Bias-Spannung |
+| 1 | Mikrofonbuchse | PJ-068 Aviation-Mikrofonbuchse | Für den GA-Mikrofonstecker |
+| 1 | Kopfhörerbuchse | Neutrik NMJ3HF-S | 6,35 mm / 1/4" Stereo-Klinkenbuchse |
+| 1 | Lochrasterplatine | ca. 60 × 40 mm | Für den Aufbau der Schaltung |
+| 1 | Widerstand R1 | 22 Ω, 0,6 W, 1 % | Widerstand im Versorgungsfilter |
+| 1 | Widerstand R2 | 220 Ω, 0,6 W, 1 % | Bias-Widerstand für das Mikrofon |
+| 1 | Widerstand R3 | 10 kΩ, 0,6 W, 1 % | Serienwiderstand zum Mikrofoneingang der USB-Soundkarte |
+| 1 | Elko C1 | 470 µF / 25 V | Glättung der Versorgungsspannung, Polarität beachten |
+| 1 | Keramikkondensator C2 | 100 nF / 50 V, X7R | Hochfrequenz-Entstörung der Versorgung |
+| 1 | Folienkondensator C3 | 1 µF / 63 V, WIMA MKS4 | Gleichspannungsentkopplung / Audio-Koppelkondensator |
+| – | Schaltdraht / Litze | ca. 0,14 mm² | Interne Verdrahtung |
+| – | Schrumpfschlauch | ca. 2,4 mm | Optional zur Isolierung |
+| 1 | 3D-gedrucktes Gehäuse | Eigenkonstruktion | Für 60 × 40 mm Platine und beide Aviation-Buchsen |
+| 4 | M3-Schrauben | – | Für den Gehäusedeckel |
+| 4 | M3-Gewindeeinsätze | Heat-Set Inserts | Werden mit dem Lötkolben in das Gehäuse eingeschmolzen |
 
 Die USB-Mikrofonversorgung speist **nicht** die ANR-Elektronik des Headsets. Diese nutzt beim Dual-GA-Modell weiterhin die eigene Batterieversorgung. LEMO- und Helikopter-Stecker werden von dieser Version nicht unterstützt.
+
+### Mikrofon-Signalweg
+
+USB 5 V → 5-auf-12-V-Step-up-Wandler → 22-Ω-Filterwiderstand →
+470-µF-Elko + 100-nF-Kondensator zur Glättung →
+220-Ω-Mikrofon-Bias-Widerstand →
+Ring der PJ-068-Mikrofonbuchse
+
+Mikrofon-Ring → 1-µF-Koppelkondensator → 10-kΩ-Widerstand →
+MIC-Eingang der USB-Soundkarte
+
+PJ-068 Sleeve → gemeinsamer Ground
+
+PJ-068 Tip → nicht belegt
+
+### Kopfhörerausgang
+
+Der Stereo-Ausgang der CM108-USB-Soundkarte wird auf Mono zusammengeführt
+und an die 6,35-mm-Aviation-Kopfhörerbuchse ausgegeben.
+
+Alle Masseverbindungen verwenden einen gemeinsamen Ground.
+
 
 ## Dokumentation und Dateien
 
