@@ -1,7 +1,4 @@
 # Herkunft und Beleglage
-
-Projektquelle: Unterhaltung „Kopfhörer Schaltplan Besprechen“, Gesprächs-ID `6abbb8f7-6790-83eb-9290-a9c36cd595e7`. Die Veröffentlichung wurde am 6. Oktober 2026 aus der zugänglichen Unterhaltung und ihren Dateien zusammengestellt.
-
 Originaldateien: `ga_headset_interface_base.stl`, `ga_headset_interface_lid.stl` und Gerätefoto `IMG_3137.jpg` (im Repository als `finished-device.jpg`). Die STL-Dateien wurden unverändert kopiert. Das Foto wurde ebenfalls unverändert übernommen. Die Prüfsummen stehen in `../SHA256SUMS.txt`.
 
 Belegt: 60 × 40-mm-Platine; erfolgreiche mechanische Passung; erfolgreiche Audiofunktion vom Erbauer berichtet; 22 Ω / 220 Ω / 10 kΩ; 470 µF und 100 nF; Mic-Ring als kombinierter Bias-/Signalpunkt; Sleeve als Masse; passiver Mono-Mischer und Headset auf Mono. Die ursprüngliche Diskussion nennt 100–220 Ω für jeden Mono-Mischwiderstand, keinen endgültig bestätigten Wert.
