@@ -1,4 +1,4 @@
-# GA Headset USB Adapter — V1
+# GA Headset USB Adapter — Dual-GA Aviation Headset to USB for Flight Simulators
 
 DIY-Adapter zum Anschluss eines Dual-GA-Headsets mit zwei Klinkensteckern, beispielsweise eines **Lightspeed Zulu 4**, an einen PC oder Flugsimulator über eine USB-Soundkarte.
 
