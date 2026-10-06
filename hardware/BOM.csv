@@ -1,16 +1,16 @@
 Referenz,Menge,Bauteil,Wert / Typ,Status / Hinweis
 U1,1,USB-Soundkarte,MIC-IN + Stereo-Kopfhörerausgang,DollaTek Free Drive USB-Soundkarte; Pinbelegung und Eingangsbias prüfen
 U2,1,Step-Up,5 V auf 12 V,"GTIWUNG Mini Boost Modul 3,7 V bis 12 V; Ausgang vor Anschluss auf 12 V einstellen"
-R1,1,Widerstand,22 Ω, Bestandteil des Versorgungsfilters
-R2,1,Bias-Widerstand,220 Ω, Mikrofon-Bias
+R1,1,Widerstand,22 Ω,Bestandteil des Versorgungsfilters
+R2,1,Bias-Widerstand,220 Ω,Mikrofon-Bias
 R3,1,Signal-Serienwiderstand,10 kΩ,Zum Mikrofoneingang der USB-Soundkarte
 C1,1,Filter-Elko,470 µF / mindestens 25 V,Versorgungsfilter; Polarität beachten
 C2,1,Filter-Keramikkondensator,100 nF / mindestens 25 V,HF-Entstörung der Versorgung
 C3,1,Koppelkondensator,1 µF WIMA-Folienkondensator,Gleichspannungsentkopplung des Mikrofonsignals
 J1,1,GA-Mikrofonbuchse,PJ-068,"Ring = Mikrofon-Bias + Signal; Sleeve = GND; Tip unbenutzt"
 J2,1,Kopfhörerbuchse,"Neutrik NMJ3HF-S / 6,35 mm","Tip = linker Audiokanal; Ring = rechter Audiokanal; Sleeve = GND"
-PCB,1,Lochrasterplatine,60 × 40 mm,Die Größe kann warieren
+PCB,1,Lochrasterplatine,60 × 40 mm,Die Platinenabmessungen können je nach Aufbau variieren
 CASE,1,Gehäuse + Deckel,Original-STLs,3D-gedrucktes Gehäuse
 M3,4,Heat-Set-Inserts + Schrauben,M3,"Entwurf ca. 4,2-mm-Bohrung / ca. 5-mm-Insert"
-MISC,1,"Kabel, Isolierung, Zugentlastung",nach Aufbau,USB-Leiter nicht allein nach Kabelfarbe zuordnen
+MISC,1,"Litze, Isolierung, Schrumpfschlauch, Zugentlastung",nach Aufbau,Für interne Verdrahtung und mechanische Sicherung
 CBL1,1,USB-Anschlusskabel,USB-A-Stecker auf offenes Kabelende,"Für Datenverbindung und 5-V-Versorgung; mindestens 4-adriges USB-2.0-Kabel; Adern vor Anschluss durchmessen und nicht allein nach Farbe zuordnen"
