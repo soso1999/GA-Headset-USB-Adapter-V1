@@ -3,6 +3,12 @@
 Dieser Schaltplan beschreibt den zuletzt festgelegten V1-Signalweg. Es ist kein aus dem fertigen Aufbau extrahierter Schaltplan. Offene Bauteilwerte stehen in der BOM.
 
 ```text
+USB-A
+├── +5 V
+├── D−
+├── D+
+└── GND
+
 USB +5 V ───────────── U2 IN+
 GND ───────────────── U2 IN− / OUT− (nicht isolierter Step-Up)
 
