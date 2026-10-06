@@ -112,10 +112,6 @@ PC ─ USB ─ USB-Soundkarte ────┼──────── Kopfhörer
        └─ +5 V ─ Step-Up 12 V ─ Filter
 
 Alle vorgesehenen Masseanschlüsse teilen einen gemeinsamen GND.
-
-und danach diesen fehlenden Teil:
-
-```markdown
 Der Kopfhörerausgang bleibt **Stereo**. Es findet keine passive Mono-Zusammenführung statt.
 
 ## Direct Monitoring / Sidetone
