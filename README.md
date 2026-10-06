@@ -5,10 +5,15 @@ DIY-Adapter für ein GA-Headset mit zwei Klinkensteckern, beispielsweise ein **L
 > **Nur PC-/Simulator-Nutzung. Kein zertifiziertes Aviation-Gerät. Nicht im Flugzeug verwenden und nicht an Flugzeug-Audio-, Funk- oder Intercom-Systeme anschließen.** Siehe [DISCLAIMER](DISCLAIMER.md).
 
 ![Fertiger V1-Adapter](docs/images/finished-device.jpg)
-
+<a href="https://buymeacoffee.com/soso1999">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+       alt="Buy Me a Coffee"
+       height="50">
+</a>
 ## Stand dieser Veröffentlichung
 
-Der Erbauer hat den V1-Prototyp gedruckt, montiert und erfolgreich am PC getestet. Er meldet eine sehr gute Mikrofonaufnahme und Wiedergabequalität. Das ist ein Erfahrungsbericht zu einem Aufbau, keine messtechnische Freigabe oder allgemeine Kompatibilitätsgarantie.
+Ich habe den V1-Prototyp gedruckt, montiert und erfolgreich am PC getestet. Mikrofonaufnahme und Wiedergabequalität ist sehr gut. 
+Das ist ein Erfahrungsbericht zu einem Aufbau, keine messtechnische Freigabe oder allgemeine Kompatibilitätsgarantie.
 
 **Dokumentationsstand für v1.0.0: 
 
