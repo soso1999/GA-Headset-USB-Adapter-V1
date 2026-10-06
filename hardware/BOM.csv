@@ -8,7 +8,7 @@ C1,1,Filter-Elko,470 µF / mindestens 25 V,Versorgungsfilter; Polarität beachte
 C2,1,Filter-Keramikkondensator,100 nF / mindestens 25 V,HF-Entstörung der Versorgung
 C3,1,Koppelkondensator,1 µF WIMA-Folienkondensator,Gleichspannungsentkopplung des Mikrofonsignals
 J1,1,GA-Mikrofonbuchse,PJ-068,"Ring = Mikrofon-Bias + Signal; Sleeve = GND; Tip unbenutzt"
-J2,1,Kopfhörerbuchse,Neutrik NMJ3HF-S / 6,35 mm,"Tip = linker Audiokanal; Ring = rechter Audiokanal; Sleeve = GND"
+J2,1,Kopfhörerbuchse,"Neutrik NMJ3HF-S / 6,35 mm","Tip = linker Audiokanal; Ring = rechter Audiokanal; Sleeve = GND"
 PCB,1,Lochrasterplatine,60 × 40 mm,Vom Erbauer verwendete Größe
 CASE,1,Gehäuse + Deckel,Original-STLs,3D-gedrucktes Gehäuse
 M3,4,Heat-Set-Inserts + Schrauben,M3,"Entwurf ca. 4,2-mm-Bohrung / ca. 5-mm-Insert; tatsächliche Hardware prüfen"
