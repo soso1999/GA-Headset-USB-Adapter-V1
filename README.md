@@ -38,7 +38,7 @@ Das ist ein Erfahrungsbericht zu einem Aufbau, keine messtechnische Freigabe ode
 | 4 | M3-Schrauben | – | Für den Gehäusedeckel |
 | 4 | M3-Gewindeeinsätze | Heat-Set Inserts | Werden mit dem Lötkolben in das Gehäuse eingeschmolzen |
 
-Die USB-Mikrofonversorgung speist **nicht** die ANR-Elektronik des Headsets. Diese nutzt beim Dual-GA-Modell weiterhin die eigene Batterieversorgung. LEMO- und Helikopter-Stecker werden von dieser Version nicht unterstützt.
+Die 12-V-Mikrofon-Bias-Spannung des USB-Adapters versorgt ausschließlich das Electret-Mikrofon. Sie speist nicht die ANR- oder Bluetooth-Elektronik des Headsets. Beim Lightspeed Zulu 4 Dual-GA erfolgt deren Versorgung weiterhin über die beiden AA-Batterien. LEMO- und Helikopter-Stecker werden von dieser Version nicht unterstützt.
 
 ### Mikrofon-Signalweg
 
@@ -56,8 +56,9 @@ PJ-068 Tip → nicht belegt
 
 ### Kopfhörerausgang
 
-Der Stereo-Ausgang der CM108-USB-Soundkarte wird auf Mono zusammengeführt
-und an die 6,35-mm-Aviation-Kopfhörerbuchse ausgegeben.
+Der Stereo-Ausgang der USB-Soundkarte wird direkt an die 6,35-mm-Aviation-Kopfhörerbuchse geführt.
+Tip = linker Kanal, Ring = rechter Kanal, Sleeve = Ground.
+Eine zusätzliche Hardware-Mono-Mischung wird in Version 1 nicht verwendet.
 
 Alle Masseverbindungen verwenden einen gemeinsamen Ground.
 
