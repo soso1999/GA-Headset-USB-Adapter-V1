@@ -1,9 +1,19 @@
 # Lizenzzuordnung
 
-Copyright 2026 Josef Jankarashvili / GA Headset USB Adapter contributors.
+Copyright © 2026 Josef Jankarashvili.
 
-- `cad/**`, `hardware/**` und die elektrische Verdrahtungs-/Aufbaudokumentation: CERN Open Hardware Licence Version 2 — Permissive (`CERN-OHL-P-2.0`), vollständiger Text in `../LICENSE`.
-- Allgemeine Dokumentation, README, Release Notes und Gerätefoto: Creative Commons Attribution 4.0 International (`CC-BY-4.0`), vollständiger Text in `CC-BY-4.0.txt`.
-- Die Lizenztexte selbst bleiben unverändert und werden unter den Bedingungen ihrer jeweiligen Urheber verteilt.
+Für die verschiedenen Bestandteile dieses Projekts gelten folgende Lizenzen:
 
-Bei Wiederverwendung Attribution und jeweilige Lizenzhinweise erhalten. Die Verwendung von Hersteller-/Produktnamen begründet keine Zugehörigkeit oder Unterstützung durch deren Inhaber.
+- `cad/**`, `hardware/**` sowie die elektrische Schaltungs-, Verdrahtungs- und Aufbaudokumentation:
+  **CERN Open Hardware Licence Version 2 – Permissive (`CERN-OHL-P-2.0`)**.  
+  Der vollständige Lizenztext befindet sich unter `LICENSES/CERN-OHL-P-2.0.txt`.
+
+- Allgemeine Dokumentation, `README.md`, Release Notes, Fotos und sonstige nicht zur Hardwarekonstruktion gehörende Inhalte:
+  **Creative Commons Attribution 4.0 International (`CC-BY-4.0`)**.  
+  Der vollständige Lizenztext befindet sich unter `LICENSES/CC-BY-4.0.txt`.
+
+Die Lizenztexte selbst bleiben unverändert und werden unter den Bedingungen ihrer jeweiligen Urheber bereitgestellt.
+
+Bei Weitergabe oder Bearbeitung müssen die jeweils geltenden Lizenz- und Attributionshinweise erhalten bleiben.
+
+Hersteller- und Produktnamen sowie Marken werden ausschließlich zur Beschreibung kompatibler oder verwendeter Produkte genannt. Ihre Verwendung bedeutet weder eine Zugehörigkeit zu noch eine Unterstützung oder Zertifizierung durch die jeweiligen Rechteinhaber.
