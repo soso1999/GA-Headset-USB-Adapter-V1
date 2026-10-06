@@ -5,7 +5,7 @@ DIY-Adapter zum Anschluss eines Dual-GA-Headsets mit zwei Klinkensteckern, beisp
 > **Nur für PC-/Simulator-Nutzung. Kein zertifiziertes Luftfahrtgerät. Nicht im Flugzeug verwenden und nicht an Flugzeug-Audio-, Funk-, Intercom- oder Bordstromsysteme anschließen.**  
 > Siehe [DISCLAIMER](DISCLAIMER.md).
 
-![Fertiger V1-Adapter](docs/images/finished-device.jpg)
+![GA Headset USB Adapter V1 für Lightspeed Zulu 4 und Flugsimulator](docs/images/finished-device.jpg)
 
 <a href="https://buymeacoffee.com/soso1999">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
