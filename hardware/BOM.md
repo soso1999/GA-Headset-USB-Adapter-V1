@@ -6,9 +6,9 @@ Diese Stückliste beschreibt die in Version 1 verwendeten Bauteile des GA-Headse
 |---|---:|---|---|---|
 | U1 | 1 | USB-Soundkarte | MIC-IN + Stereo-Kopfhörerausgang | DollaTek Free Drive USB-Soundkarte; Pinbelegung und Eingangsbias prüfen |
 | U2 | 1 | Step-Up | 5 V auf 12 V | GTIWUNG Mini Boost Modul 3,7 V bis 12 V; Ausgang vor Anschluss auf 12 V einstellen |
-| R1 | 1 | Widerstand | 22 Ω | V1-Wert bestätigt; Bestandteil des Versorgungsfilters |
-| R2 | 1 | Bias-Widerstand | 220 Ω | V1-Wert bestätigt; Mikrofon-Bias |
-| R3 | 1 | Signal-Serienwiderstand | 10 kΩ | V1-Wert bestätigt; zum Mikrofoneingang der USB-Soundkarte |
+| R1 | 1 | Widerstand | 22 Ω | Bestandteil des Versorgungsfilters |
+| R2 | 1 | Bias-Widerstand | 220 Ω | Mikrofon-Bias |
+| R3 | 1 | Signal-Serienwiderstand | 10 kΩ | Zum Mikrofoneingang der USB-Soundkarte |
 | C1 | 1 | Filter-Elko | 470 µF / mindestens 25 V | Versorgungsfilter; Polarität beachten |
 | C2 | 1 | Filter-Keramikkondensator | 100 nF / mindestens 25 V | HF-Entstörung der Versorgung |
 | C3 | 1 | Koppelkondensator | 1 µF WIMA-Folienkondensator | Gleichspannungsentkopplung des Mikrofonsignals |
