@@ -18,7 +18,7 @@ Diese Stückliste beschreibt die in Version 1 verwendeten Bauteile des GA-Headse
 | CASE | 1 | Gehäuse + Deckel | Original-STLs | 3D-gedrucktes Gehäuse |
 | M3 | 4 | Heat-Set-Inserts + Schrauben | M3 | Entwurf ca. 4,2-mm-Bohrung / ca. 5-mm-Insert; tatsächliche Hardware prüfen |
 | MISC | 1 | Kabel, Isolierung, Zugentlastung | nach Aufbau | USB-Leiter nicht allein nach Kabelfarbe zuordnen |
-
+| CBL1 | 1 | USB-Anschlusskabel | USB-A-Stecker auf offenes Kabelende | Für Datenverbindung und 5-V-Versorgung; mindestens 4-adriges USB-2.0-Kabel; Adern vor Anschluss durchmessen und nicht allein nach Farbe zuordnen |
 ## Mikrofon-Signalweg
 
 USB 5 V → Step-Up auf 12 V → 22-Ω-Filterwiderstand → 470-µF-Elko + 100-nF-Kondensator → 220-Ω-Bias-Widerstand → Ring der PJ-068-Mikrofonbuchse.
