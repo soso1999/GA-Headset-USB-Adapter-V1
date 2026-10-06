@@ -14,11 +14,12 @@ Diese Stückliste beschreibt die in Version 1 verwendeten Bauteile des GA-Headse
 | C3 | 1 | Koppelkondensator | 1 µF WIMA-Folienkondensator | Gleichspannungsentkopplung des Mikrofonsignals |
 | J1 | 1 | GA-Mikrofonbuchse | PJ-068 | Ring = Mikrofon-Bias + Signal; Sleeve = GND; Tip unbenutzt |
 | J2 | 1 | Kopfhörerbuchse | Neutrik NMJ3HF-S / 6,35 mm | Tip = linker Audiokanal; Ring = rechter Audiokanal; Sleeve = GND |
-| PCB | 1 | Lochrasterplatine | 60 × 40 mm | Die Größe kann warierieren |
+| PCB | 1 | Lochrasterplatine | 60 × 40 mm | Die Platinenabmessungen können je nach Aufbau variieren |
 | CASE | 1 | Gehäuse + Deckel | Original-STLs | 3D-gedrucktes Gehäuse |
 | M3 | 4 | Heat-Set-Inserts + Schrauben | M3 | Entwurf ca. 4,2-mm-Bohrung / ca. 5-mm-Insert |
-| MISC | 1 | Kabel, Isolierung, Zugentlastung | nach Aufbau | USB-Leiter nicht allein nach Kabelfarbe zuordnen |
+| MISC | 1 | Litze, Isolierung, Schrumpfschlauch, Zugentlastung | nach Aufbau | Für interne Verdrahtung und mechanische Sicherung |
 | CBL1 | 1 | USB-Anschlusskabel | USB-A-Stecker auf offenes Kabelende | Für Datenverbindung und 5-V-Versorgung; mindestens 4-adriges USB-2.0-Kabel; Adern vor Anschluss durchmessen und nicht allein nach Farbe zuordnen |
+
 ## Mikrofon-Signalweg
 
 USB 5 V → Step-Up auf 12 V → 22-Ω-Filterwiderstand → 470-µF-Elko + 100-nF-Kondensator → 220-Ω-Bias-Widerstand → Ring der PJ-068-Mikrofonbuchse.
@@ -26,7 +27,7 @@ USB 5 V → Step-Up auf 12 V → 22-Ω-Filterwiderstand → 470-µF-Elko + 100-n
 Das Mikrofonsignal wird am Ring abgegriffen und über den 1-µF-Koppelkondensator sowie den 10-kΩ-Serienwiderstand zum Mikrofoneingang der USB-Soundkarte geführt.
 
 - PJ-068 Ring: Mikrofon-Bias + Audiosignal
-- PJ-068 Sleeve: Ground
+- PJ-068 Sleeve: Masse (GND)
 - PJ-068 Tip: nicht verwendet
 
 ## Kopfhörerausgang
@@ -35,7 +36,7 @@ Der Kopfhörerausgang wird **stereo** betrieben.
 
 - Tip: linker Audiokanal
 - Ring: rechter Audiokanal
-- Sleeve: Ground
+- Sleeve: Masse (GND)
 
 Eine zusätzliche Hardware-Mono-Mischung mit Widerständen wird in Version 1 nicht verwendet.
 
@@ -43,6 +44,6 @@ Eine zusätzliche Hardware-Mono-Mischung mit Widerständen wird in Version 1 nic
 
 Vor dem Anschluss des Headsets muss der Step-Up-Wandler auf etwa 12 V Ausgangsspannung eingestellt und mit einem Multimeter kontrolliert werden.
 
-Alle Masseverbindungen der Schaltung verwenden einen gemeinsamen Ground.
+Alle Masseverbindungen der Schaltung verwenden einen gemeinsamen GND.
 
 Der Adapter ist ausschließlich für PC- und Simulatorbetrieb vorgesehen und nicht als zertifiziertes Luftfahrtgerät ausgelegt.
