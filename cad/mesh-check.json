@@ -1,0 +1,38 @@
+{
+  "ga_headset_interface_base.stl": {
+    "facets": 3316,
+    "vertices": 9948,
+    "bounds_mm": [
+      [
+        0.0,
+        92.0
+      ],
+      [
+        0.0,
+        76.0
+      ],
+      [
+        0.0,
+        40.0
+      ]
+    ]
+  },
+  "ga_headset_interface_lid.stl": {
+    "facets": 2420,
+    "vertices": 7260,
+    "bounds_mm": [
+      [
+        0.0,
+        92.0
+      ],
+      [
+        0.0,
+        76.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ]
+  }
+}
