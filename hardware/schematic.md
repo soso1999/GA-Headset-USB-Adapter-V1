@@ -4,46 +4,36 @@ Dieser Schaltplan dokumentiert den tatsächlich aufgebauten und getesteten Signa
 
 ```text
 USB-A
-├── +5 V
-├── D−
-├── D+
-└── GND
+├── +5 V ────────────────┬──────── U1 USB +5 V
+│                        └──────── U2 IN+
+│
+├── D− ─────────────────────────── U1 USB D−
+├── D+ ─────────────────────────── U1 USB D+
+│
+└── GND ────────────────┬──────── U1 USB GND
+                        └──────── U2 IN−
 
-USB +5 V ───────────── U2 IN+
-GND ───────────────── U2 IN− / OUT− (nicht isolierter Step-Up)
+U2 OUT− ────────────────────────── gemeinsame Masse
+          (bei nicht isoliertem Step-Up mit IN− verbunden)
+
+
+MIKROFONVERSORGUNG UND -SIGNAL
 
 U2 OUT+ (12 V) ─ R1 22 Ω ────┬── R2 220 Ω ────● MIC_BIAS_AUDIO
-                             │                 │
-                        ┌────┴────┐            ├── J1 Ring
-                        │         │            │
-                    C1 470 µF  C2 100 nF       └── C3 1 µF ─ R3 10 kΩ ─ U1 MIC signal
-                    (+ oben)      │              
-                        │         │
-GND ────────────────────┴─────────┴──────── J1 Sleeve / U1 MIC ground
-J1 Tip: unbeschaltet (kein PTT in diesem Adapter)
+                              │                  │
+                         ┌────┴────┐             ├── J1 Ring
+                         │         │             │
+                     C1 470 µF  C2 100 nF        └── C3 1 µF ─ R3 10 kΩ ─ U1 MIC signal
+                     (+ oben)      │
+                         │         │
+GND ─────────────────────┴─────────┴──────────── J1 Sleeve / U1 MIC ground
 
-U1 Headphone L ─────────────── J2 Tip
-U1 Headphone R ─────────────── J2 Ring
-U1 Headphone GND ───────────── J2 Sleeve ─ GND
+J1 Tip: unbeschaltet
+        (kein elektrisches PTT in diesem Adapter)
 
-Keine Mono-Zusammenführung.
-R4/R5 werden in V1 nicht verwendet.
-Headset für den PC-Betrieb auf Stereo stellen.
 
-C1 und C2 liegen parallel zwischen gefilterter Versorgung und GND. C3 liegt in Serie im Signalweg; er ist kein Versorgungsfilter. Der Mikrofon-Ring führt gleichzeitig Gleichspannung und das Audiosignal. R3 bildet mit der Soundkarten-Eingangsimpedanz eine Pegelabsenkung; der resultierende Pegel hängt von der konkreten Karte ab.
+KOPFHÖRERAUSGANG
 
-Der Kopfhörerausgang wird in Version 1 stereo betrieben.
-
-Linker und rechter Audiokanal bleiben getrennt:
-L → J2 Tip
-R → J2 Ring
-GND → J2 Sleeve
-
-Der Kopfhörerausgang erhält keine 12-V-Speisung.
-Der Adapter stellt einen echten Stereo-Kopfhörerausgang bereit: Tip = linker Kanal, Ring = rechter Kanal, Sleeve = Ground.
-Für eine korrekte Stereo-Wiedergabe sollte das Headset auf Stereo gestellt werden.
-Beim Lightspeed Zulu 4 kann die Wiedergabe auch in der Stellung Mono normal und qualitativ gut funktionieren; dabei kann jedoch die echte Links-Rechts-Kanaltrennung verloren gehen.
-
-Alle hier genannten GND-Anschlüsse sind elektrisch verbunden. Das setzt eine passende Soundkarte mit gemeinsamer Analog-/USB-Masse voraus. Bei unbekannten bzw. differenziellen Ausgängen nicht blind verbinden.
-
-Die Zulu-4-Herstellerspezifikation nennt 8–16 V Mikrofon-Betriebsspannung und 220–2200 Ω Abschlussimpedanz. Die 12 V beziehen sich auf U2 OUT+, die Spannung am belasteten Mikrofon-Ring ist wegen R1/R2 niedriger. Sie muss am konkreten Aufbau gemessen werden. [Quelle](https://www.lightspeedaviation.com/product/zulu-4-anr-headset/)
+U1 Headphone L ─────────────────── J2 Tip
+U1 Headphone R ─────────────────── J2 Ring
+U1 Headphone GND ───────────────── J2 Sleeve ─ GND
