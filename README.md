@@ -54,7 +54,11 @@ Alle vorgesehenen Masseanschlüsse teilen GND.
 
 Wenn dir das Projekt beim Einsatz deines Aviation-Headsets im Simulator hilft, kannst du die weitere Entwicklung freiwillig mit einem Kaffee unterstützen. Die Dateien bleiben frei verfügbar.
 
-☕ **Buy Me a Coffee:** `https://www.buymeacoffee.com/YOUR_USERNAME` — Platzhalter, vor Veröffentlichung des Unterstützungslinks ersetzen.
+<a href="https://buymeacoffee.com/soso1999">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+       alt="Buy Me a Coffee"
+       height="50">
+</a>
 
 ## Lizenz
 
