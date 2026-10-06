@@ -112,3 +112,41 @@ PC ─ USB ─ USB-Soundkarte ────┼──────── Kopfhörer
        └─ +5 V ─ Step-Up 12 V ─ Filter
 
 Alle vorgesehenen Masseanschlüsse teilen einen gemeinsamen GND.
+
+und danach diesen fehlenden Teil:
+
+```markdown
+Der Kopfhörerausgang bleibt **Stereo**. Es findet keine passive Mono-Zusammenführung statt.
+
+## Direct Monitoring / Sidetone
+
+V1 enthält kein analoges Direct Monitoring bzw. Sidetone.
+
+Software-Monitoring über Windows oder entsprechende Audio-Software ist möglich, kann jedoch eine deutlich hörbare Verzögerung verursachen.
+
+Eine analoge Sidetone-/Preamp-Lösung ist als mögliche spätere V2 vorgesehen und nicht Bestandteil von V1.
+
+## Unterstützung
+
+Wenn dir das Projekt beim Einsatz deines Aviation-Headsets im Simulator hilft, kannst du die weitere Entwicklung freiwillig mit einem Kaffee unterstützen. Die Dateien bleiben frei verfügbar.
+
+<a href="https://buymeacoffee.com/soso1999">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+       alt="Buy Me a Coffee"
+       height="50">
+</a>
+
+## Lizenz
+
+Für die verschiedenen Bestandteile des Projekts gelten unterschiedliche Lizenzen:
+
+- Hardware-Design, elektrische Schaltungs-/Verdrahtungsdokumentation und CAD-Dateien: **CERN Open Hardware Licence Version 2 – Permissive (`CERN-OHL-P-2.0`)**
+- Allgemeine Dokumentation, README, Release Notes und Gerätefotos: **Creative Commons Attribution 4.0 International (`CC-BY-4.0`)**
+
+Die vollständigen Lizenztexte und die genaue Zuordnung befinden sich unter [LICENSES](LICENSES/README.md).
+
+Copyright © 2026 Josef Jankarashvili.
+
+Lightspeed, Zulu, Bose und weitere genannte Hersteller- oder Produktnamen sind Marken ihrer jeweiligen Rechteinhaber. Dieses Projekt ist unabhängig und wird von den genannten Herstellern weder unterstützt noch zertifiziert.
+
+Die elektrischen Herstellerdaten des Lightspeed Zulu 4 wurden anhand der [offiziellen Zulu-4-Spezifikation](https://www.lightspeedaviation.com/product/zulu-4-anr-headset/) geprüft. Weitere Quellen befinden sich in der Provenienz-Dokumentation.
