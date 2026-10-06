@@ -1,6 +1,6 @@
 # Elektrischer Schaltplan — V1
 
-Dieser Schaltplan beschreibt den zuletzt festgelegten V1-Signalweg. Es ist kein aus dem fertigen Aufbau extrahierter Schaltplan. Offene Bauteilwerte stehen in der BOM.
+Dieser Schaltplan dokumentiert den tatsächlich aufgebauten und getesteten Signalweg des GA-Headset-USB-Adapters V1. Die angegebenen Bauteilwerte entsprechen der funktionierenden V1-Hardware. Der Schaltplan stellt die elektrische Funktion dar und nicht zwingend die physische Anordnung der Bauteile auf der Lochrasterplatine.
 
 ```text
 USB-A
