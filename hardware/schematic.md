@@ -16,8 +16,8 @@ U2 OUT+ (12 V) ─ R1 22 Ω ────┬── R2 220 Ω ────● MIC_
                              │                 │
                         ┌────┴────┐            ├── J1 Ring
                         │         │            │
-                    C1 470 µF  C2 100 nF        └── C3 ─ R3 10 kΩ ─ U1 MIC signal
-                    (+ oben)      │                Wert offen
+                    C1 470 µF  C2 100 nF       └── C3  ─ R3 10 kΩ ─ U1 MIC signal
+                    (+ oben)      │              
                         │         │
 GND ────────────────────┴─────────┴──────── J1 Sleeve / U1 MIC ground
 J1 Tip: unbeschaltet (kein PTT in diesem Adapter)
