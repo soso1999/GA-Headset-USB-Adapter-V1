@@ -16,7 +16,7 @@ Diese Stückliste beschreibt die in Version 1 verwendeten Bauteile des GA-Headse
 | J2 | 1 | Kopfhörerbuchse | Neutrik NMJ3HF-S / 6,35 mm | Tip = linker Audiokanal; Ring = rechter Audiokanal; Sleeve = GND |
 | PCB | 1 | Lochrasterplatine | 60 × 40 mm | Die Größe kann warierieren |
 | CASE | 1 | Gehäuse + Deckel | Original-STLs | 3D-gedrucktes Gehäuse |
-| M3 | 4 | Heat-Set-Inserts + Schrauben | M3 | Entwurf ca. 4,2-mm-Bohrung / ca. 5-mm-Insert; tatsächliche Hardware prüfen |
+| M3 | 4 | Heat-Set-Inserts + Schrauben | M3 | Entwurf ca. 4,2-mm-Bohrung / ca. 5-mm-Insert |
 | MISC | 1 | Kabel, Isolierung, Zugentlastung | nach Aufbau | USB-Leiter nicht allein nach Kabelfarbe zuordnen |
 | CBL1 | 1 | USB-Anschlusskabel | USB-A-Stecker auf offenes Kabelende | Für Datenverbindung und 5-V-Versorgung; mindestens 4-adriges USB-2.0-Kabel; Adern vor Anschluss durchmessen und nicht allein nach Farbe zuordnen |
 ## Mikrofon-Signalweg
